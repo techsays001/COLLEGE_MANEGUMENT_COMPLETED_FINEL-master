@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg">
+
+
+  <EditText
+      android:id="@+id/departmen5"
+      android:layout_width="256dp"
+      android:layout_height="47dp"
+      android:background="@drawable/bt"
+      android:layout_marginLeft="100dp"
+      android:layout_marginTop="75dp"
+      android:textStyle="bold"
+      android:padding="10dp"
+      android:drawableStart="@drawable/enter"
+      android:drawableLeft="@drawable/enter"
+      android:textColor="@color/black"
+      android:textSize="17dp"
+      android:hint="Department" />
+
+  <Spinner
+      android:id="@+id/year5"
+      android:layout_width="256dp"
+      android:layout_height="47dp"
+      android:textStyle="bold"
+android:inputType="number"
+      android:layout_marginLeft="100dp"
+      android:textColor="@color/black"
+      android:textSize="17dp"
+     android:background="@drawable/bt"
+      android:drawableLeft="@drawable/datee"
+      android:drawableStart="@drawable/datee"
+      android:padding="10dp"
+      android:layout_marginTop="25dp"
+  android:hint="Year" />
+
+  <EditText
+      android:id="@+id/sub5"
+      android:layout_width="252dp"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="100dp"
+      android:layout_marginTop="25dp"
+      android:background="@drawable/bt"
+      android:drawableStart="@drawable/enter"
+      android:drawableLeft="@drawable/enter"
+      android:hint="subject"
+      android:padding="10dp"
+      android:textColor="@color/black"
+      android:textSize="17dp"
+      android:textStyle="bold" />
+
+  <EditText
+      android:id="@+id/date5"
+      android:layout_width="256dp"
+      android:layout_height="47dp"
+      android:background="@drawable/bt"
+      android:drawableStart="@drawable/datee"
+      android:drawableLeft="@drawable/datee"
+      android:padding="10dp"
+      android:focusable="false"
+      android:layout_marginLeft="100dp"
+      android:layout_marginTop="25dp"
+      android:textStyle="bold"
+      android:textColor="@color/black"
+ android:hint="Date"/>
+
+  <EditText
+      android:id="@+id/satarttime5"
+      android:layout_width="256dp"
+      android:layout_height="47dp"
+      android:background="@drawable/bt"
+      android:drawableLeft="@drawable/time"
+      android:drawableStart="@drawable/time"
+      android:padding="10dp"
+      android:focusable="false"
+      android:layout_marginLeft="100dp"
+      android:layout_marginTop="25dp"
+android:hint="Start time"
+      android:textStyle="bold"
+      android:textColor="@color/black"
+      android:textSize="17dp"/>
+
+  <EditText
+      android:id="@+id/endtime5"
+      android:layout_width="256dp"
+      android:layout_height="47dp"
+      android:drawableStart="@drawable/time"
+      android:drawableLeft="@drawable/time"
+      android:padding="10dp"
+      android:focusable="false"
+      android:layout_marginLeft="100dp"
+      android:background="@drawable/bt"
+      android:layout_marginTop="25dp"
+      android:textStyle="bold"
+      android:textColor="@color/black"
+      android:textSize="17dp"
+     android:hint="End time"
+      />
+
+  <Button
+      android:id="@+id/log5"
+      android:layout_width="168dp"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="135dp"
+      android:layout_marginTop="45dp"
+      android:background="@drawable/btn"
+      android:text="update" />
+
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".regtwo"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="262dp"
+        android:layout_height="417dp"
+
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintCircleRadius="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/abc1"
+            android:layout_width="256dp"
+            android:layout_height="47dp"
+
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bt"
+            android:drawableStart="@drawable/enter"
+            android:drawableLeft="@drawable/enter"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/abc2"
+            android:layout_width="256dp"
+            android:layout_height="47dp"
+
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bt"
+            android:drawableStart="@drawable/enter"
+            android:inputType="text"
+            android:padding="10dp"
+
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/abc3"
+            android:layout_width="256dp"
+            android:layout_height="47dp"
+
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bt"
+            android:drawableStart="@drawable/datee"
+            android:drawableLeft="@drawable/datee"
+            android:focusable="false"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/abc4"
+            android:layout_width="256dp"
+            android:layout_height="47dp"
+
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bt"
+            android:drawableStart="@drawable/enter"
+            android:inputType="text"
+            android:padding="10dp"
+
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/abc5"
+            android:layout_width="256dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bt"
+            android:drawableStart="@drawable/time"
+            android:drawableLeft="@drawable/time"
+            android:inputType="text"
+            android:padding="10dp"
+
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/abc6"
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bt"
+            android:drawableStart="@drawable/time"
+            android:drawableLeft="@drawable/time"
+            android:inputType="text"
+            android:padding="10dp"
+
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/abc"
+            android:layout_width="150dp"
+            android:layout_height="5dp"
+android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/gradient_bg"
+            android:inputType="text"
+            android:padding="10dp"
+
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/event5"
+        android:icon="@drawable/view"
+        android:title="Event upload" />
+<!--    <item-->
+<!--        android:id="@+id/nav_gallery"-->
+<!--        android:icon="@drawable/appo"-->
+<!--        android:title="Weekly report" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/nav_tools"-->
+<!--        android:icon="@drawable/view"-->
+<!--        android:title="View Reports" />-->
+</menu>
